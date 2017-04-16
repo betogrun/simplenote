@@ -4,7 +4,7 @@ class NotesController < ApplicationController
   def index
     #TODO Coloar filtros por tag
     @notes = current_user.notes + current_user.guest_notes
-    render :json => @notes.to_json(:include => [:users, :tags])
+    #render :json => @notes.to_json(:include => [:users, :tags])
   end
 
   def show

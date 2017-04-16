@@ -20,5 +20,3 @@
 
 
 toastr.options = {"positionClass": "toast-bottom-right"}
-
-toastr.success('O Bootcamp 2 vai ser incrível')
