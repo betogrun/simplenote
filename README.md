@@ -1,5 +1,4 @@
 # SimpleNote (WIP)
-===================
 
 This is a MVP basead on [OneNote](https://github.com/leonardoscorza/onenote) and Evernote to manage online notes for multiple users.
 
@@ -13,7 +12,7 @@ Make sure you have [Ruby](https://www.ruby-lang.org), [Rails](http://rubyonrails
 git clone git@github.com:betogrun/simplenote.git # or clone your own fork
 cd simplenote
 bundle install
-bundle exec rake db:create && rake db:migrate && rake db:seed
+rake db:create && rake db:migrate && rake db:seed
 rails s
 ```
 
